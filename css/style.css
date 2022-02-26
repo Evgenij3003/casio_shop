@@ -148,10 +148,10 @@ body {
     background-color: #181818;
 }
 
-/* body {
+body {
     opacity: 0;
-    -webkit-animation: body_show 0.5s forwards ease-in-out 0.3s;
-            animation: body_show 0.5s forwards ease-in-out 0.3s;
+    -webkit-animation: body_show 0.5s forwards ease-in-out;
+            animation: body_show 0.5s forwards ease-in-out;
 }
 
 @keyframes body_show {
@@ -172,7 +172,7 @@ body {
     100% {
         opacity: 1;
     }
-} */
+}
 
 body._lock {
     overflow: hidden;
