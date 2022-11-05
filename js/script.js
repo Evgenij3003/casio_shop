@@ -566,7 +566,7 @@ let _slideToggle = (target, duration = 500) => {
 
 /*==========================================================================================================================================================================*/
 /* Count Offer */
-let countDate = new Date("April 30, 2022 00:00:00").getTime();
+let countDate = new Date("January 01, 2023 00:00:00").getTime();
 function countOffer() {
     let now = new Date().getTime();
     let gap = countDate - now;
